@@ -232,18 +232,4 @@ public class BinarySearchTree<K extends Comparable<K>, V> {
         return root;
     }
 
-    private void replaceNode(Node<K, V> parent, Node<K, V> child, Node<K, V> target) {
-
-        if(parent == null || parent == child) {
-            // case: child is root.
-            return;
-        }
-
-        if(parent.left == child) {
-            parent.left = target;
-        } else if(parent.right == child) {
-            parent.right = target;
-        }
-    }
-
 }
