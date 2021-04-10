@@ -1,7 +1,7 @@
-package me.kaizhong.alogrithm;
+package me.kaizhong.test.alogrithm;
 
 
-import me.kaizhong.alogrithm.search.BinarySearchTree;
+import me.kaizhong.test.alogrithm.search.BinarySearchTree;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package me.kaizhong.alogrithm.search;
+package me.kaizhong.test.alogrithm.search;
 
 import java.util.Objects;
 import java.util.Optional;
@@ -104,9 +104,9 @@ public class BinarySearchTree<K extends Comparable<K>, V> {
     }
 
     /*
-     * 1. 查找中序后继节点；
+     * 1. 查找中序后继节点;
      * 2. 拷贝后继节点;
-     * 3. 删除后继节点；
+     * 3. 删除后继节点;
      */
     private Node<K, V> deleteRecursivelyInternal(Node<K, V> root, K key) {
 
