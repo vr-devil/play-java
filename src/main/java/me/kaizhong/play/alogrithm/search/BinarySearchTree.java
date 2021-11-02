@@ -1,4 +1,4 @@
-package me.kaizhong.test.alogrithm.search;
+package me.kaizhong.play.alogrithm.search;
 
 import java.util.Objects;
 import java.util.Optional;
